@@ -2,12 +2,48 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <link rel="stylesheet" href="./scss/index.scss">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clinik</title>
   </head>
   <body>
-    
+    <header> <!--Шапка-->
+      <div class="header">
+        <div class="header__nav">
+          <div class="nav__menu">
+            <input type="checkbox" id="burger-checkbox" class="menu__burger-checkbox">
+            <label for="burger-checkbox" class="burger"></label>
+            <div class="menu__list">
+              <ul id="hed-ul" style="margin-bottom: 0px; padding-bottom: 39px; height: min-content;">
+                <li class="list"><a href="#" class="list__item" style="margin-top: 43px; padding-top: 5px; padding-bottom: 5px;">О клинике</a></li>
+                <li class="list"><a href="#" class="list__item" style="padding-top: 5px; padding-bottom: 5px;">Услуги</a></li>
+                <li class="list"><a href="#" class="list__item" style="padding-top: 5px; padding-bottom: 5px;">Специалисты</a></li>
+                <li class="list"><a href="#" class="list__item" style="padding-top: 5px; padding-bottom: 5px;">Цены</a></li>
+                <li class="list"><a href="#" class="list__item" style="padding-top: 5px; padding-bottom: 5px;">Контакты</a></li>
+              </ul>
+              <div class="menu__button">
+                <a href="#" id="link_appointment"><button id="btn-appointment" value="">Записаться на прием</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="header__logo"><img src="./public/assets/logoGreen.svg" alt="clinic logo"></div>
+        <div class="header__contacts">
+          <span class="contacts__phone">+7(863) 000 00 00</span>
+          <span class="contacts__city">Ростов-на-Дону</span>
+        </div>
+      </div>
+    </header> <!--./шапка-->
+    <main>
+      <div class="main">
+        <div class="main__clinicPhoto">
+          <img class="clinicPhoto__sorce" src="./public/assets/clinic.png" alt="">
+        </div>
+        <div class="wrapper">
+          <article></article>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
   </body>
 </html>
